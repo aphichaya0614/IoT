@@ -38,6 +38,15 @@ void displayNumber() {
 }
 void displaySegment(int numberToDisplay) {
   switch (numberToDisplay) {
+    case 0:
+      digitalWrite(segmentA, HIGH);
+      digitalWrite(segmentB, HIGH);
+      digitalWrite(segmentC, HIGH);
+      digitalWrite(segmentD, HIGH);
+      digitalWrite(segmentE, HIGH);
+      digitalWrite(segmentF, HIGH);
+      digitalWrite(segmentG, LOW);
+      break;
     case 1:  // แสดงผลเลข 1
       digitalWrite(segmentA, LOW);
       digitalWrite(segmentB, HIGH);
