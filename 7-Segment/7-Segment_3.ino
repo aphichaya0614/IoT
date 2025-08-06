@@ -23,14 +23,14 @@ void loop() {
 void displayNumber() {
   int sw = digitalRead(12);
   if (sw == 0) {
-    for (int digit = 9; digit >= 1; digit--) {
+    for (int digit = 9; digit >= 0; digit--) {
       displaySegment(digit);  // แสดงผลบน 7-Segment ขนาด 1 หลัก
       delay(500);             // หน่วงเวลา 0.5 วินาที
     }
   }
 
   else {
-    for (int digit = 1; digit <= 9; digit++) {
+    for (int digit = 0; digit <= 9; digit++) {
       displaySegment(digit);  // แสดงผลบน 7-Segment ขนาด 1 หลัก
       delay(500);             // หน่วงเวลา 0.5 วินาที
     }
