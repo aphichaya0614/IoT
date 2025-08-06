@@ -20,7 +20,7 @@ void loop() {
   displayNumber();
 }
 void displayNumber() {
-  for (int digit = 1; digit <= 9; digit++) {
+  for (int digit = 0; digit <= 9; digit++) {
     displaySegment(digit);
     delay(500);
   }
