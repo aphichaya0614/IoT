@@ -32,3 +32,5 @@ void loop() {
     IrReceiver.resume();                                           // Enable receiving of the next value
   }
 }
+
+//3. ให้แก้ไขคำสั่งภายใน switch case ดังตัวอย่างข้างล่าง โดยเพิ่มเข้าไปในโปรแกรมข้อที่ 1 หรือข้อที่ 2 ก็ได้ ตาม Remote Control ที่นำมาทดลองใช้งานได้ เพื่อให้แสดงปุ่มกดต่างๆ ของคำสั่งใน Remote ที่นำมาใช้งาน//
